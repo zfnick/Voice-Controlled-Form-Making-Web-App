@@ -1,0 +1,38 @@
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* button should be simple grey background with black text */
+button {
+  background-color: #ccc;
+  color: #000;
+  border: none;
+  padding: 5px 15px;
+  margin: 3px;
+  border-radius: 5px;
+  cursor: pointer;
+}
